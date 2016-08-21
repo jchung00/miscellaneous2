@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class jag{
+	public static void main(String[] args){
+	  System.out.println("Welcome! Please input an integer.");
+    Scanner sc1 = new Scanner(System.in); 
+    int num1 = sc1.nextInt();
+    System.out.println("Please input an operator: +, -, *, or /");
+    Scanner sc2 = new Scanner (System.in); 
+    String operator = sc2.nextLine(); 
+    System.out.println("Please input another integer.");
+    Scanner sc3 = new Scanner (System.in); 
+    String num2 = sc3.nextInt(); 
+    if(operator.equals("+"){
+      double result = (double) num1 + num2; 
+    }
+    else if(operator.equals("-"){
+      double result = (double) num1 - num2; 
+    }
+    else if(operator.equals("*"){
+      double result = (double) num1 * num2; 
+    }
+    else if(operator.equals("/"){
+      double result = (double) num1 / num2; 
+    }
+    System.out.println("Result: " + result); 
+  }
+}
+    
+	
